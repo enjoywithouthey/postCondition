@@ -1,0 +1,32 @@
+{
+  "name": "nextstacks",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@hookform/resolvers": "^3.2.0",
+    "@stacks/connect": "^7.3.1",
+    "@stacks/connect-react": "^22.1.1",
+    "@stacks/network": "^6.5.5",
+    "@stacks/transactions": "^6.7.0",
+    "encoding": "^0.1.13",
+    "mongodb": "^5.7.0",
+    "mongoose": "^7.4.2",
+    "nanoid": "^4.0.2",
+    "next": "13.4.12",
+    "next-themes": "^0.2.1",
+    "next-transpile-modules": "^10.0.1",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-hook-form": "^7.45.4",
+    "react-hot-toast": "^2.4.1",
+    "react-spinners": "^0.13.8",
+    "react-sticky-box": "^2.0.4",
+    "yup": "^1.2.0"
+  }
+}

@@ -1,0 +1,39 @@
+*,
+*:after,
+*:before{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+html {scroll-behavior: smooth;}
+html,
+body {margin: 0;}
+body {
+  overflow-x: hidden;
+  display: flex;
+  justify-content: center;
+  font-family: -apple-system, 'Satoshi', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  backdrop-filter: blur(40px);
+color: #f5f5f5;
+background-color: #444444;
+height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+img {display: block; cursor: pointer;}
+
+button {
+  display: block;
+  width: 150px;
+  height: 50px;
+  margin-bottom: 2em;
+  background-color: #f2a900;
+  border-radius: 1em;
+  cursor: pointer;
+}
